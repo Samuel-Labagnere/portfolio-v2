@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<svelte:head>
+  <title>Portfolio | Samuel Labagnere</title>
+</svelte:head>
+
+<p>Portfolio en construction</p>
+
+<style>
+  :global(body){
+    background: black;
+    color: white;
+  }
+</style>
