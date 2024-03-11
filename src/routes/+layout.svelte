@@ -15,6 +15,7 @@
 </footer>
 
 <script lang="ts">
+  import "../app.css";
   import { onMount } from "svelte";
   
   let lightThemeIcon:HTMLElement;
