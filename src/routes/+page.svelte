@@ -2,7 +2,7 @@
   <title>Portfolio | Samuel Labagnere</title>
 </svelte:head>
 
-<script>
+<script lang="ts">
   import logo from '$lib/assets/logo.png';
   import sam from '$lib/assets/sam.jpg';
   import linkedin from '$lib/assets/linkedin.svg';

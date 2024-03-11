@@ -1,4 +1,4 @@
-<script type="ts">
+<script lang="ts">
     import ThreeImages from '$lib/components/ThreeImages.svelte';
 
     let images = [
