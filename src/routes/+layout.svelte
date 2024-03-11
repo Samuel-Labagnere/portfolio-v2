@@ -1,5 +1,5 @@
 <svelte:head>
-  { head ? head : '' }
+  { head ?? '' }
   <link bind:this="{darkThemeIcon}" rel="icon" id="darkThemeIcon" type="image/png" href="Icon-dark.png" />
   <link bind:this="{lightThemeIcon}" rel="icon" id="lightThemeIcon" type="image/png" href="Icon-light.png" />
 </svelte:head>
@@ -16,8 +16,7 @@
 
 <script lang="ts">
   import { onMount } from "svelte";
-
-
+  
   let lightThemeIcon:HTMLElement;
   let darkThemeIcon:HTMLElement;
   let head:HTMLElement;
