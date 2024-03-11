@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+body {
+    font-family: 'Roboto';
+    @apply text-primary;
+}
+
+.btn {
+    @apply w-64 h-20 border border-primary rounded-full
+    flex justify-center items-center uppercase italic text-4xl
+    bg-primary/75 md:bg-transparent text-black md:text-primary
+    md:hover:text-black md:hover:bg-primary md:transition-colors ease-in-out duration-700;
+}
+
+.link {
+    @apply uppercase italic underline;
+}

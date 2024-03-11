@@ -1,18 +1,10 @@
 <svelte:head>
   { head ?? '' }
-  <link bind:this="{darkThemeIcon}" rel="icon" id="darkThemeIcon" type="image/png" href="Icon-dark.png" />
-  <link bind:this="{lightThemeIcon}" rel="icon" id="lightThemeIcon" type="image/png" href="Icon-light.png" />
+  <link bind:this="{darkThemeIcon}" rel="icon" id="darkThemeIcon" type="image/png" href="assets/Icon-dark.png" />
+  <link bind:this="{lightThemeIcon}" rel="icon" id="lightThemeIcon" type="image/png" href="assets/Icon-light.png" />
 </svelte:head>
 
-<header>
-
-</header>
-
 <slot></slot>
-
-<footer>
-
-</footer>
 
 <script lang="ts">
   import "../app.css";
@@ -38,5 +30,11 @@
       }
     }
   });
-  
 </script>
+
+<style>
+  :global(body){
+    background: black;
+    color: white;
+  }
+</style>
