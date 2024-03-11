@@ -22,21 +22,21 @@
   <section class="relative">
     <div class="absolute flex flex-col justify-center gap-2.5 md:flex-row md:justify-around items-center w-full h-full">
       <div class="flex flex-col gap-2.5 items-center">
-        <a href="/" class="btn">
+        <a href="/photo" class="btn">
           Photo
         </a>
   
-        <a href="/" class="btn">
+        <a href="/audiovisuel" class="btn">
           Audiovisuel
         </a>
       </div>
   
       <div class="flex flex-col gap-2.5 items-center">
-        <a href="/" class="btn">
+        <a href="/web" class="btn">
           Web
         </a>
   
-        <a href="/" class="btn">
+        <a href="/jeux" class="btn">
           Jeux vidéo
         </a>
       </div>
