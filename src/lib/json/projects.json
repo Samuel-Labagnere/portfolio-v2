@@ -1,0 +1,53 @@
+{
+    "photo" : {
+        "voyage" : [],
+        "mode": [],
+        "portrait": []
+    },
+    "audiovisuel" : {
+        "metrages" : [],
+        "autres": [],
+        "vlogs": []
+    },
+    "web": {
+        "projetsuniversitaires" : [
+            {
+                "src" : "cinema_le_festival",
+                "title" : "Cinéma: Le Festival",
+                "description" : [
+                    "Refonte graphique du site web du Cinéma « Le Festival » de Bègles.",
+                    "Ce projet fut entrepris par l’équipe Mangrela durant le projet DESIGN INTERACTIF du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Langages",
+                        "HTML, CSS, JS"
+                    ]
+                ],
+                "link" : "https://cinema-lefestival.netlify.app/"
+            },
+            {
+                "src" : "defiscovid",
+                "title" : "#DÉFISCOVID",
+                "description" : [
+                    "Création de l’application web DEFISCOVID, proposant 14 défis journaliers pour aider à passer le temps durant un résultat positif au Covid-19.",
+                    "Projet réalisé par l’équipe CASNEV durant la semaine MAIN DANS LA MAIN du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Langages",
+                        "HTML, CSS, JS"
+                    ]
+                ],
+                "link" : "https://defiscovid.netlify.app/"
+            }
+        ],
+        "projetsprofessionnels": [],
+        "projetspersonnels": []
+    },
+    "jeux": {
+        "projetsuniversitaires" : [],
+        "projetsprofessionnels": [],
+        "projetspersonnels": []
+    }
+}
