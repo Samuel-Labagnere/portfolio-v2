@@ -10,10 +10,10 @@
 </script>
 
 
-<section class="flex flex-col-reverse md:block my-10">
+<section class="flex flex-col md:block my-10">
     <Return />
 
-    <div class="relative w-full h-full">
+    <div class="relative flex flex-col-reverse md:block w-full h-full">
         <div class="md:grid grid-cols-2">
             <img src={sam} alt="Samuel Labagnere" class="mx-auto col-start-2" />
         </div>
