@@ -8,6 +8,7 @@
   import linkedin from '$lib/assets/linkedin.svg';
   import instagram from '$lib/assets/instagram.svg';
   import github from '$lib/assets/github.svg';
+  import global from "$lib/texts/global.json";
 </script>
 
 <section class="h-screen overflow-y-hidden">
@@ -15,7 +16,7 @@
     <img alt="Logo de Samuel Labagnere" src={logo} class="w-20" />
     <div class="flex flex-col items-center uppercase">
       <h1 class="text-2xl">Samuel Labagnere</h1>
-      <h2 class="text-lg">Développeur web PHP - JS & Ruby</h2>
+      <h2 class="text-lg">{global.title}</h2>
     </div>
   </header>
   
@@ -49,7 +50,7 @@
     <img alt="Samuel Labagnere en costume" src={sam} class="mx-auto" />
 
     <div class="absolute bottom-0 flex justify-center items-center w-full my-12 md:my-5 gap-6">
-      <a href="/" class="hidden md:block link">
+      <a href="/about" class="hidden md:block link">
         À propos
       </a>
 

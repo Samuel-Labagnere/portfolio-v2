@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Return from "./Return.svelte";
     export let images: ImageArray[] = [];
     export let section: string = '';
 
@@ -21,11 +22,7 @@
 </script>
 
 <section class="flex flex-col justify-center items-center gap-10 h-screen">
-    <div class="w-full flex justify-center">
-        <a href="/" class="btn-link">
-            &lt; Retour
-        </a>
-    </div>
+    <Return />
 
     {#if images.length === 3}
         <div class="flex flex-col md:flex-row w-5/6 md:w-fit mx-5">
