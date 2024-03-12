@@ -27,6 +27,9 @@
         "mysql",
         "postgre",
         "svelte",
-        "tailwind"
+        "tailwind",
+        "rust",
+        "laravel",
+        "symfony"
     ]
 }
