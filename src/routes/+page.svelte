@@ -8,7 +8,7 @@
   import linkedin from '$lib/assets/linkedin.svg';
   import instagram from '$lib/assets/instagram.svg';
   import github from '$lib/assets/github.svg';
-  import global from "$lib/texts/global.json";
+  import global from "$lib/json/global.json";
 </script>
 
 <section class="h-screen overflow-y-hidden">

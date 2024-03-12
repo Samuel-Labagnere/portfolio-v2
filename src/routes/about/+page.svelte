@@ -5,8 +5,8 @@
     import instagram from '$lib/assets/instagram.svg';
     import github from '$lib/assets/github.svg';
     import Technologies from "$lib/components/Technologies.svelte";
-    import global from "$lib/texts/global.json";
-    import about from "$lib/texts/about.json";
+    import global from "$lib/json/global.json";
+    import about from "$lib/json/about.json";
 </script>
 
 
