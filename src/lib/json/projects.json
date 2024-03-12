@@ -1,12 +1,334 @@
 {
     "photo" : {
         "voyage" : [],
-        "mode": [],
-        "portrait": []
+        "mode": [
+            {
+                "src" : "yaniXmax",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en paysage de Yani MADEBOS et Maxime LASSERRE, tous deux étudiants, lors d’une séance en plein air.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "emma",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en paysage de Emma FOUILLAT, étudiante, lors d’une séance en plein air.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "laurent",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en paysage de Laurent MALUCELLI, étudiant, lors d’une séance en plein air.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "maxime",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en portrait de Maxime LASSERRE, étudiant, lors d’une séance en plain air.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "meca",
+                "title" : "Bordeaux, La MÉCA",
+                "description" : [
+                    "Photographie en portrait de Maxime LASSERRE, étudiant.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Panasonic Lumix DC-G9"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "meca2",
+                "title" : "Bordeaux, La MÉCA",
+                "description" : [
+                    "Photographie en portrait de Maxime LASSERRE, étudiant.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Panasonic Lumix DC-G9"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "yani",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en portrait de Yani MADEBOS, étudiant.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "yani2",
+                "title" : "Bordeaux, Jardin Public",
+                "description" : [
+                    "Photographie en portrait de Yani MADEBOS, étudiant.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            }
+        ],
+        "portrait": [
+            {
+                "src" : "julian",
+                "title" : "Bordeaux, IUT Bordeaux Montaigne, Studio",
+                "description" : [
+                    "Photographie en paysage de Julian LABALLE, étudiant, lors d'un shooting.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "laurent2",
+                "title" : "Bordeaux, IUT Bordeaux Montaigne, Studio",
+                "description" : [
+                    "Photographie en paysage de Laurent MALUCELLI, étudiant, lors d'un shooting.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "maxime2",
+                "title" : "Bordeaux, IUT Bordeaux Montaigne, Studio",
+                "description" : [
+                    "Photographie en paysage de Maxime LASSERRE, étudiant, lors d'un shooting.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            },{
+                "src" : "nathael",
+                "title" : "Bordeaux, IUT Bordeaux Montaigne, Studio",
+                "description" : [
+                    "Photographie en paysage de Nathaël LABAT, étudiant, lors d'un shooting.",
+                    "Cette photo fait partie d'une série de tant d'autres prisent durant le projet PHOTOS du cursus MMI de l'IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Appareil",
+                        "Nikon Coolpix P500"
+                    ],
+                    "Photo retouchée avec Adobe Lightroom Classic."
+                ],
+                "link" : ""
+            }
+        ]
     },
     "audiovisuel" : {
-        "metrages" : [],
-        "autres": [],
+        "metrages" : [
+            {
+                "src" : "unusual_work",
+                "title" : "Unusual work",
+                "description" : [
+                    "Court-Métrage réalisé/monté par Maxime LASSERRE, assisté par ma personne.",
+                    "Ce film nous aura servi d’entraînement pour manipuler le Panasonic Lumix DC-G9."
+                ],
+                "info" : [
+                    [
+                        "Réalisateur",
+                        "Maxime LASSERRE"
+                    ],
+                    [
+                        "Monteur",
+                        "Samuel LABAGNERE"
+                    ],
+                    [
+                        "Acteurs",
+                        "Samuel LABAGNERE & Maxime LASSERRE"
+                    ]
+                ],
+                "link" : ""
+            },{
+                "src" : "her_friends",
+                "title" : "HER FRIENDS",
+                "description" : [
+                    "Court-Métrage réalisé par moi-même, inspiré du réalisateur Coréen Park Chan Wook.",
+                    "Ce court-métrage a été produit durant le projet HORS CHAMPS du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Réalisateur",
+                        "Samuel LABAGNERE"
+                    ],
+                    [
+                        "Monteur",
+                        "Samuel LABAGNERE"
+                    ],
+                    [
+                        "Acteurs",
+                        "Samuel LABAGNERE & Yani MADEBOS"
+                    ],
+                    [
+                        "Equipe tournage",
+                        "Laurent MALUCELLI, Maxime LASSERRE, Gabriel PAGLIA"
+                    ]
+                ],
+                "link" : ""
+            },{
+                "src" : "unesco",
+                "title" : "Voyage dans les langues",
+                "description" : [
+                    "Long-Métrage entièrement réalisé et produit par les étudiants de deuxième année (2021-2022) du DUT MMI à l’IUT Bordeaux Montaigne.",
+                    "Produit our introduire en vidéo les sujets qui seront abordés dans la conférence Les Dialogues du 21 organisée par l'UNESCO."
+                ],
+                "info" : [
+                    "Production des étudiants de 2e Année (2021-2022) DUT MMI Bordeaux Montaigne",
+                    [
+                        "Mes rôles",
+                        "Co-Réalisateur, chef rédacteur, assistant perchiste, assistant cadreur, monteur, acteur"
+                    ]
+                ],
+                "link" : "https://www.youtube.com/watch?v=bEtPPWjTBk4"
+            },{
+                "src" : "irresponsabilite",
+                "title" : "Irresponsabilité",
+                "description" : [
+                    "Court-Métrage de sensibilisation à l'importance de la responsabilité dans notre société et tentant d'en établir une définition qui nous est propre.",
+                    "Produit pour la journée d'intégration des premières et deuxièmes années du DUT MMI à l'IUT Bordeaux Montaigne, nous avions 16h en groupe de 5 pour réaliser une vidéo sur le thème de la responsabilité."
+                ],
+                "info" : [
+                    "Production d'un groupe de 3 premières années et deux deuxièmes années moi inclus.",
+                    [
+                        "Mes rôles",
+                        "Co-Réalisateur, chef rédacteur, assistant cadreur, monteur, acteur"
+                    ]
+                ],
+                "link" : "https://drive.google.com/file/d/1xLgHtjSvH6IK9ds_Dxp-w3951rCtTioL/view"
+            }
+        ],
+        "autres": [
+            {
+                "src" : "cultural_wave",
+                "title" : "CulturalWave, Pilote",
+                "description" : [
+                    "Pilote d’émission réalisé par The Graceful Six, une équipe temporaire pour le projet SHOWTIME du cursus MMI à l’IUT Bordeaux Montaigne.",
+                    "Cette émission présente un style musical atypique chaque épisode, et le premier débute avec la VaporWave."
+                ],
+                "info" : [
+                    [
+                        "Rôles",
+                        "Rédacteur, Correcteur, Journaliste, Masquotte, Voix off, Cadreur, Monteur"
+                    ]
+                ],
+                "link" : ""
+            },{
+                "src" : "mystery_gang",
+                "title" : "MysteryGang, Vous zététique ?",
+                "description" : [
+                    "Pilote d’émission radio intitulée MysteryGang dont le premier épisode s’intitule « Vous zététique ? » durant le projet WEB RADIO du cursus MMI de l’IUT Bordeaux Montaigne.",
+                    "Cette émission parle de divers faits méconnus de la plupart, dont la zététique dans le pilote. Un voyage dans le monde de la réflexion, de l’esprit critique et d’une rigueur scientifique dans la recherche du faux et du vrai."
+                ],
+                "info" : [
+                    [
+                        "Rôles",
+                        "Présentateur, rédacteur, journaliste"
+                    ]
+                ],
+                "link" : "https://drive.google.com/file/d/1sFHYyQyNDXeLIV57SriIZnn_UAP0KafL/view"
+            },{
+                "src" : "acte3",
+                "title" : "Dialogues du 21<br />Acte 3",
+                "description" : [
+                    "Organisation du Live Stream de la conférence Acte 3 des Dialogues du 21, diffusée le 18/02/22.",
+                    "Nous ferons honneur à la diversité culturelle et linguistique mondiale à travers plusieurs invités qui viendront nous faire voyager de leurs récits."
+                ],
+                "info" : [
+                    [
+                        "Rôles",
+                        "Co-organisateur du live, assistant technique, chargé du making off, gestion des invités"
+                    ]
+                ],
+                "link" : "https://www.youtube.com/watch?v=KNv5dphokUM"
+            },{
+                "src" : "acte4",
+                "title" : "Dialogues du 21<br />Acte 4",
+                "description" : [
+                    "Organisation du Live Stream de la conférence Acte 4 des Dialogues du 21, diffusée le 21/05/22.",
+                    "Des hommes et femmes de science sont cette fois-ci appelés à questionner et illustrer des mots, des histoires, afin d’en parcourir les chemins, de leur création à leurs usages, savants ou non"
+                ],
+                "info" : [
+                    [
+                        "Rôles",
+                        "Co-organisateur du live, assistant technique, gestion des invités"
+                    ]
+                ],
+                "link" : "https://www.youtube.com/watch?v=hoDqoucWC0E"
+            }
+        ],
         "vlogs": []
     },
     "web": {
@@ -40,14 +362,202 @@
                     ]
                 ],
                 "link" : "https://defiscovid.netlify.app/"
+            },
+            {
+                "src" : "eclatech",
+                "title" : "Eclatech",
+                "description" : [
+                    "Création d’un blog autour de Bordeaux et ses startups dans la FrenchTech.",
+                    "Créé et codé par Buenorizon durant le projet BLOGART du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Langages",
+                        "HTML, SCSS, JS, PHP, SQL (PDO)"
+                    ]
+                ],
+                "link" : ""
+            },
+            {
+                "src" : "campus",
+                "title" : "Culture Campus",
+                "description" : [
+                    "Création d’un site de vente en ligne pour l’Université Bordeaux Montaigne.",
+                    "Créé et développé par une équipe d’étudiants en DUT MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Framework",
+                        "Ruby On Rails"
+                    ]
+                ],
+                "link" : "https://culturecampus.fr/"
+            },
+            {
+                "src" : "morpionline",
+                "title" : "Morpionline",
+                "description" : [
+                    "Développement d’une application web pour jouer au Morpion sous React.js.",
+                    "Créé et développé par un binôme d’étudiants en DUT MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Langages",
+                        "HTML, CSS, JS"
+                    ],
+                    [
+                        "Librairie",
+                        "React"
+                    ]
+                ],
+                "link" : "https://morpionline.netlify.app/"
+            },
+            {
+                "src" : "regards",
+                "title" : "Regards",
+                "description" : [
+                    "Développement d’une narration interractive sous Svelte.",
+                    "Conceptualisé et développé par moi et mon groupe pour la BACCHANIGHT du Musée des Beaux Arts de Bordeaux durant la formation MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Framework",
+                        "Svelte"
+                    ]
+                ],
+                "link" : "https://regards-bacchanight.netlify.app/"
+            },
+            {
+                "src" : "cgscop",
+                "title" : "Citoyenneté économique",
+                "description" : [
+                    "Développement d’une plateforme d’auto-évulation pour les entreprises sur des critères extra-financiers.",
+                    "Conceptualisé et développé par moi et mon groupe, soutenu par ALMA, pour la Confédération Générale des Sociétés Coopératives, durant le Workshop MMI 2022."
+                ],
+                "info" : [
+                    [
+                        "Framework",
+                        "Ruby On Rails"
+                    ],
+                    [
+                        "Librairie",
+                        "Bootstrap 5"
+                    ]
+                ],
+                "link" : "https://defiscovid.netlify.app/"
             }
         ],
         "projetsprofessionnels": [],
-        "projetspersonnels": []
+        "projetspersonnels": [
+            {
+                "src" : "sam",
+                "title" : "SL. - Portfolio",
+                "description" : [
+                    "Portfolio en ligne designé et codé par moi-même.",
+                    "Ce projet a vu le jour de ma propre initiative, mais s’est vu retravaillé durant mon cursus MMI."
+                ],
+                "info" : [
+                    [
+                        "Langages",
+                        "HTML, CSS, JS"
+                    ]
+                ],
+                "link" : "https://samuel-labagnere.netlify.app/"
+            }
+        ]
     },
     "jeux": {
-        "projetsuniversitaires" : [],
+        "projetsuniversitaires" : [
+            {
+                "src" : "pong",
+                "title" : "PONG★",
+                "description" : [
+                    "Jeu inspiré de Pong (1972), modernisé et pensé pour répondre à un certain nombre de handicaps.",
+                    "Ce projet a vu le jour durant la semaine HANDIPLAY du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : "https://the-saml.itch.io/pong"
+            },
+            {
+                "src" : "tlc",
+                "title" : "The Last Call",
+                "description" : [
+                    "Jeu narratif d’ambiance en 2D, réalisé par l’EKIProduction.",
+                    "Projet né durant la semaine DESIGN DU JEU VIDÉO du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : "https://vaillantpetit.itch.io/the-last-call"
+            },{
+                "src" : "gooh",
+                "title" : "GOOH (Get Out Of Here)",
+                "description" : [
+                    "Jeu puzzle d’ambiance en 2D, réalisé par l’équipe Holloween.",
+                    "Projet né durant la semaine JEUX VIDÉO ET EXPÉRIENCES du cursus MMI à l’IUT Bordeaux Montaigne."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : "https://the-saml.itch.io/gooh"
+            }
+        ],
         "projetsprofessionnels": [],
-        "projetspersonnels": []
+        "projetspersonnels": [
+            {
+                "src" : "soldier",
+                "title" : "Super Soldier",
+                "description" : [
+                    "Entraînement à la création d’un jeu de type FPS (First Person Shooter) sous Unity.",
+                    "Projet réalisé pour et durant le Coding Club d’Epitech Bordeaux."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : ""
+            },{
+                "src" : "balle",
+                "title" : "BalleFolle!",
+                "description" : [
+                    "Entraînement à la maîtrise de la physique sous Unity.",
+                    "Projet réalisé pour et durant le Coding Club d’Epitech Bordeaux."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : ""
+            },{
+                "src" : "birds",
+                "title" : "Birds Attack",
+                "description" : [
+                    "Entraînement à la maîtrise de la physique sous Unity, ainsi que la création d’un jeu destiné aux plateformes mobiles.",
+                    "Projet réalisé pour et durant le Coding Club d’Epitech Bordeaux."
+                ],
+                "info" : [
+                    [
+                        "Moteur",
+                        "Unity3D"
+                    ]
+                ],
+                "link" : ""
+            }
+        ]
     }
 }

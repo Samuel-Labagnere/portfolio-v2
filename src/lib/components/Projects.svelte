@@ -15,7 +15,7 @@
     }
 </script>
 
-<section class="w-full h-full flex flex-col items-center gap-10 my-5">
+<section class="w-full h-full flex flex-col items-center gap-5 my-5">
     <Return deep={projectSection} />
 
     {#if projects[projectSection] && projects[projectSection][projectSubSection].length > 0}
