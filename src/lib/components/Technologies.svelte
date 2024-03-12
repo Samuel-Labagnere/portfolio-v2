@@ -1,30 +1,5 @@
 <script lang="ts">
-    const images = [
-        'ps',
-        'lr',
-        'pr',
-        'ae',
-        'ai',
-        'xd',
-        'vsc',
-        'git',
-        'figma',
-        'html',
-        'css',
-        'js',
-        'php',
-        'sql',
-        'unity',
-        'jquery',
-        'react',
-        'rails',
-        'sass',
-        'jekyll',
-        'mysql',
-        'postgre',
-        'svelte',
-        'tailwind'
-    ];
+    import { technologies as images } from "$lib/json/about.json";
 
     async function loadImage(src: string) {
       try {
