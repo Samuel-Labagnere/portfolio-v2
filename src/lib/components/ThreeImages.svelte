@@ -27,7 +27,7 @@
     {#if images.length === 3}
         <div class="flex flex-col md:flex-row w-5/6 md:w-fit mx-5">
             <div>
-                <a href={images[0].link} class="relative group">
+                <a href={`/${section}${images[0].link}`} class="relative group">
                     <div class="card">
                         <p>{images[0].title}</p>
                     </div>
@@ -38,7 +38,7 @@
                     {/await}
                 </a>
         
-                <a href={images[1].link} class="relative group ">
+                <a href={`/${section}${images[1].link}`} class="relative group ">
                     <div class="card">
                         <p>{images[1].title}</p>
                     </div>
@@ -50,7 +50,7 @@
                 </a>
             </div>
 
-            <a href={images[2].link} class="relative group ">
+            <a href={`/${section}${images[2].link}`} class="relative group ">
                 <div class="card">
                     <p>{images[2].title}</p>
                 </div>
