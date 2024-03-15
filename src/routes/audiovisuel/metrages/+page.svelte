@@ -2,4 +2,4 @@
     import Projects from "$lib/components/Projects.svelte";
 </script>
 
-<Projects projectSection='audiovisuel' projectSubSection='metrages' />
+<Projects projectSection='audiovisuel' projectSectionName='Métrages' projectSubSection='metrages' />

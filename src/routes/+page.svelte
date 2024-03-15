@@ -42,7 +42,7 @@
         </a>
       </div>
 
-      <a href="/" class="md:hidden btn">
+      <a href="/about" class="md:hidden btn">
         À propos
       </a>
     </div>

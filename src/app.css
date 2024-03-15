@@ -34,3 +34,12 @@ body {
     @apply absolute bottom-0 left-0 w-full h-1/3 md:h-full flex md:justify-center items-center bg-black/35 md:bg-primary md:text-black
     md:italic md:font-bold text-2xl md:text-4xl transition-all duration-1000 md:opacity-0 group-hover:md:opacity-100 md:text-center pl-4 md:pl-0;
 }
+
+.overlay {
+    @apply !border-black w-32 h-10 text-lg md:w-64 md:h-20 md:text-4xl;
+}
+
+.closing-tag::after {
+    content: 'x';
+    @apply absolute top-0 right-0 uppercase border border-black rounded-full w-8 h-8 flex justify-center items-center bg-primary m-4 lg:m-0;
+}
