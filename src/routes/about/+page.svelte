@@ -13,9 +13,9 @@
 <section class="flex flex-col md:block my-10">
     <Return />
 
-    <div class="relative flex flex-col-reverse md:block w-full h-full">
+    <div class="relative flex flex-col-reverse md:block w-full h-full bg-black/40">
         <div class="md:grid grid-cols-2">
-            <img src={sam} alt="Samuel Labagnere" class="mx-auto col-start-2" />
+            <img src={sam} alt="Samuel Labagnere" class="absolute md:block top-0 right-0 -z-10 mx-auto col-start-2" />
         </div>
     
         <div class="grid md:grid-cols-2 md:absolute top-0 left-0 p-12 md:p-16 gap-y-10">
@@ -34,7 +34,7 @@
                 <Technologies />
             </div>
     
-            <div class="flex justify-end items-end">
+            <div class="flex justify-center md:justify-end items-end gap-6">
                 <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
                     <img alt="Linkedin" src={linkedin} />
                 </a>
