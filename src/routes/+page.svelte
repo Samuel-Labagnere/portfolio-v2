@@ -11,7 +11,7 @@
   import global from "$lib/json/global.json";
 </script>
 
-<section class="h-screen overflow-y-hidden">
+<section class="relative h-screen overflow-y-hidden">
   <header class="flex flex-col items-center">
     <img alt="Logo de Samuel Labagnere" src={logo} class="w-20" />
     <div class="flex flex-col items-center uppercase">
@@ -20,8 +20,8 @@
     </div>
   </header>
   
-  <section class="relative">
-    <div class="absolute flex flex-col justify-center items-center gap-2.5 w-full h-full">
+  <section class="md:relative">
+    <div class="absolute flex flex-col mt-5 md:mt-0 md:justify-center items-center gap-2.5 w-full h-full">
       <div class="flex flex-col justify-center gap-2.5 md:gap-64 md:flex-row md:justify-between items-center">
         <div class="flex flex-col gap-2.5 items-center">
           <a href="/photo" class="btn">
@@ -51,7 +51,7 @@
 
     <img alt="Samuel Labagnere en costume" src={sam} class="mx-auto" />
 
-    <div class="absolute bottom-0 flex justify-center items-center w-full my-12 md:my-5 gap-6">
+    <div class="absolute bottom-0 flex justify-center items-center w-full my-5 gap-6">
       <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
         <img alt="Linkedin" src={linkedin} />
       </a>
