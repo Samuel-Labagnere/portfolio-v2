@@ -44,7 +44,7 @@
                     <p class="text-4xl font-semibold">{@html project.title}</p>
                 </div>
 
-                <div>
+                <div class="flex flex-col gap-2.5 lg:gap-5">
                     {#each project.description as description}
                         <p>{@html description}</p>
                     {/each}
