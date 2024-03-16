@@ -11,7 +11,7 @@
   import global from "$lib/json/global.json";
 </script>
 
-<section class="relative h-screen overflow-y-hidden">
+<section class="relative h-screen overflow-hidden">
   <header class="flex flex-col items-center">
     <img alt="Logo de Samuel Labagnere" src={logo} class="w-20" />
     <div class="flex flex-col items-center uppercase">
