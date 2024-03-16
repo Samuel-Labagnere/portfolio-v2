@@ -51,16 +51,16 @@
 
     <img alt="Samuel Labagnere en costume" src={sam} class="mx-auto" />
 
-    <div class="md:absolute bottom-0 flex justify-center items-center w-full md:my-5 gap-6">
-      <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
-        <img alt="Linkedin" src={linkedin} />
-      </a>
-      <a href="https://www.instagram.com/samuel.labagnere/" target="_blank">
-        <img alt="Instagram" src={instagram} />
-      </a>
-      <a href="https://github.com/Samuel-Labagnere/" target="_blank">
-        <img alt="Github" src={github} />
-      </a>
-    </div>
   </section>
+  <div class="hidden absolute bottom-0 md:flex justify-center items-center w-full md:my-5 gap-6">
+    <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
+      <img alt="Linkedin" src={linkedin} />
+    </a>
+    <a href="https://www.instagram.com/samuel.labagnere/" target="_blank">
+      <img alt="Instagram" src={instagram} />
+    </a>
+    <a href="https://github.com/Samuel-Labagnere/" target="_blank">
+      <img alt="Github" src={github} />
+    </a>
+  </div>
 </section>
