@@ -43,3 +43,7 @@ body {
     content: 'x';
     @apply absolute top-0 right-0 uppercase border border-black rounded-full w-8 h-8 flex justify-center items-center bg-primary m-4 lg:m-0;
 }
+
+.disabled-link {
+    @apply !text-gray-400 !w-80 pointer-events-none;
+}

@@ -63,8 +63,8 @@
                 {/each}
             </div>
 
-            <a href={project.link} class="btn overlay 
-            {project.link ? '!text-black' : '!text-gray-400 !w-80'}">
+            <a href={project.link ?? '#'} class="btn overlay 
+            {project.link ? '!text-black' : 'disabled-link'}" target="_blank">
                 {project.link ? 'Ouvrir' : 'Indisponnible'}
             </a>
         </div>
