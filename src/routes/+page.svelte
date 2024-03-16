@@ -51,7 +51,7 @@
 
     <img alt="Samuel Labagnere en costume" src={sam} class="mx-auto" />
 
-    <div class="absolute bottom-0 flex justify-center items-center w-full my-5 gap-6">
+    <div class="md:absolute bottom-0 flex justify-center items-center w-full md:my-5 gap-6">
       <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
         <img alt="Linkedin" src={linkedin} />
       </a>
