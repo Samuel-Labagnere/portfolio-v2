@@ -40,7 +40,7 @@
 
             <div class="flex flex-col gap-20">
                 <div>
-                    <p class="text-7xl font-bold">{sectionName}</p>
+                    <p class="text-5xl lg:text-7xl font-bold">{sectionName}</p>
                     <p class="text-4xl font-semibold">{@html project.title}</p>
                 </div>
 
