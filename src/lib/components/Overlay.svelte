@@ -65,7 +65,7 @@
 
             <a href={project.link ?? '#'} class="btn overlay 
             {project.link ? '!text-black' : 'disabled-link'}" target="_blank">
-                {project.link ? 'Ouvrir' : 'Indisponnible'}
+                {project.link ? 'Ouvrir' : 'Indisponible'}
             </a>
         </div>
     </div>
