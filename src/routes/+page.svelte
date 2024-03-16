@@ -21,28 +21,30 @@
   </header>
   
   <section class="relative">
-    <div class="absolute flex flex-col justify-center gap-2.5 md:flex-row md:justify-around items-center w-full h-full">
-      <div class="flex flex-col gap-2.5 items-center">
-        <a href="/photo" class="btn">
-          Photo
-        </a>
-  
-        <a href="/audiovisuel" class="btn">
-          Audiovisuel
-        </a>
-      </div>
-  
-      <div class="flex flex-col gap-2.5 items-center">
-        <a href="/web" class="btn">
-          Web
-        </a>
-  
-        <a href="/jeux" class="btn">
-          Jeux vidéo
-        </a>
-      </div>
+    <div class="absolute flex flex-col justify-center items-center gap-2.5 w-full h-full">
+      <div class="flex flex-col justify-center gap-2.5 md:gap-64 md:flex-row md:justify-between items-center">
+        <div class="flex flex-col gap-2.5 items-center">
+          <a href="/photo" class="btn">
+            Photo
+          </a>
+    
+          <a href="/audiovisuel" class="btn">
+            Audiovisuel
+          </a>
+        </div>
+    
+        <div class="flex flex-col gap-2.5 items-center">
+          <a href="/web" class="btn">
+            Web
+          </a>
+    
+          <a href="/jeux" class="btn">
+            Jeux vidéo
+          </a>
+        </div>
+      </div>  
 
-      <a href="/about" class="md:hidden btn">
+      <a href="/about" class="btn !bg-primary/75 !text-black">
         À propos
       </a>
     </div>
@@ -50,10 +52,6 @@
     <img alt="Samuel Labagnere en costume" src={sam} class="mx-auto" />
 
     <div class="absolute bottom-0 flex justify-center items-center w-full my-12 md:my-5 gap-6">
-      <a href="/about" class="hidden md:block link">
-        À propos
-      </a>
-
       <a href="https://www.linkedin.com/in/samuel-labagnere/" target="_blank">
         <img alt="Linkedin" src={linkedin} />
       </a>
