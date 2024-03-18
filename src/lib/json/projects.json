@@ -447,7 +447,97 @@
                 "link" : "https://citoyennete-economique.scop.coop/"
             }
         ],
-        "projetsprofessionnels": [],
+        "projetsprofessionnels": [
+            {
+                "src" : "rainx",
+                "title" : "Rain-X",
+                "description" :  [
+                    "Refonte complète du site web de la marque Rain-X.",
+                    "Projet réalisé au sein de l'agence Piment."
+                ],
+                "info" : [
+                    [
+                        "CMS",
+                        "WordPress"
+                    ],
+                    [
+                        "Langages",
+                        "PHP, JS, CSS"
+                    ],
+                    [
+                        "Librairie",
+                        "Tailwind"
+                    ]
+                ],
+                "link" : "https://rainx.fr/"
+            },
+            {
+                "src" : "a2z",
+                "title" : "A2Z Distribution",
+                "description" :  [
+                    "Refonte complète du site web d'A2Z Distribution.",
+                    "Projet réalisé au sein de l'agence Piment."
+                ],
+                "info" : [
+                    [
+                        "CMS",
+                        "WordPress"
+                    ],
+                    [
+                        "Langages",
+                        "PHP, JS, CSS"
+                    ],
+                    [
+                        "Librairie",
+                        "Tailwind"
+                    ]
+                ],
+                "link" : "https://a2zdistribution.fr/"
+            },
+            {
+                "src" : "neosigna",
+                "title" : "Neosigna",
+                "description" :  [
+                    "Développement du site web Neosigna.",
+                    "Projet réalisé au sein de l'agence Piment."
+                ],
+                "info" : [
+                    [
+                        "CMS",
+                        "WordPress"
+                    ],
+                    [
+                        "Langages",
+                        "PHP, JS, CSS"
+                    ],
+                    [
+                        "Librairie",
+                        "Tailwind"
+                    ]
+                ],
+                "link" : "https://www.neosigna.com/"
+            },
+            {
+                "src" : "esprit_tennis",
+                "title" : "Esprit Tennis",
+                "description" :  [
+                    "Refonte complète du site e-commerce Esprit Tennis.",
+                    "Projet réalisé au sein de l'agence Piment."
+                ],
+                "info" : [
+                    [
+                        "CMS",
+                        "Shopify"
+                    ],
+                    [
+                        "Langages",
+                        "Shopify Liquid, JS"
+                    ],
+                    "Scripts internes développés en Ruby."
+                ],
+                "link" : "https://esprit-tennis.com/"
+            }
+        ],
         "projetspersonnels": [
             {
                 "src" : "sam",
@@ -460,6 +550,21 @@
                     [
                         "Langages",
                         "HTML, CSS, JS"
+                    ]
+                ],
+                "link" : ""
+            },
+            {
+                "src" : "sam2",
+                "title" : "SL. - Portfolio",
+                "description" : [
+                    "Refonte de mon Portfolio via le framework SvelteKit.",
+                    "Ce projet a vu le jour de ma propre initiative durant mon cursus DAWIN en Licence Professionnelle."
+                ],
+                "info" : [
+                    [
+                        "Framework",
+                        "SvelteKit"
                     ]
                 ],
                 "link" : "https://samuel-labagnere.netlify.app/"
