@@ -35,19 +35,20 @@
             {:catch error}
                 <p>Error loading image: {error.message}</p>
             {/await}
+            <div class="flex flex-col gap-10">
+                <button on:click={() => close()} class="closing-tag"></button>
 
-            <button on:click={() => close()} class="closing-tag"></button>
-
-            <div class="flex flex-col gap-20">
-                <div>
-                    <p class="text-5xl lg:text-7xl font-bold">{sectionName}</p>
-                    <p class="text-4xl font-semibold">{@html project.title}</p>
-                </div>
-
-                <div class="flex flex-col gap-2.5 lg:gap-5">
-                    {#each project.description as description}
-                        <p>{@html description}</p>
-                    {/each}
+                <div class="flex flex-col gap-20">
+                    <div>
+                        <p class="text-5xl lg:text-7xl font-bold mb-2.5">{sectionName}</p>
+                        <p class="text-4xl font-semibold">{@html project.title}</p>
+                    </div>
+    
+                    <div class="flex flex-col gap-2.5 lg:gap-5">
+                        {#each project.description as description}
+                            <p>{@html description}</p>
+                        {/each}
+                    </div>
                 </div>
             </div>
         </div>
