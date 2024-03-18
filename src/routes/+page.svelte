@@ -1,7 +1,3 @@
-<svelte:head>
-  <title>Portfolio | Samuel Labagnere</title>
-</svelte:head>
-
 <script lang="ts">
   import logo from '$lib/assets/logo.png';
   import sam from '$lib/assets/sam.jpg';
