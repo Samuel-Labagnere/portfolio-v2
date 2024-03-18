@@ -30,7 +30,10 @@
         "tailwind",
         "rust",
         "laravel",
-        "symfony"
+        "symfony",
+        "nodejs",
+        "wordpress",
+        "shopify"
     ],
     "opquast" : "https://directory.opquast.com/fr/certificat/6YQ5XI/"
 }
