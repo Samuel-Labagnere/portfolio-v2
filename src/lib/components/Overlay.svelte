@@ -27,7 +27,7 @@
     }
 </script>
 
-<div class="{active[project.src] ? 'block' : 'hidden'} fixed top-0 left-0 w-screen h-screen overflow-y-scroll bg-primary text-black p-8">
+<div class="{active[project.src] ? 'block' : 'hidden'} fixed top-20 left-50 w-[80vw] h-[80vh] overflow-y-scroll bg-primary text-black p-8">
     <div class="flex flex-col gap-5">
         <div class="relative flex flex-col lg:flex-row gap-5">
             {#await loadImage(project.src) then src}
@@ -35,12 +35,13 @@
             {:catch error}
                 <p>Error loading image: {error.message}</p>
             {/await}
+            
             <div class="flex flex-col gap-10">
                 <button on:click={() => close()} class="closing-tag"></button>
 
                 <div class="flex flex-col gap-20">
                     <div>
-                        <p class="text-5xl lg:text-7xl font-bold mb-2.5">{sectionName}</p>
+                        <p class="text-5xl md:text-4xl xl:text-5xl font-bold mb-2.5">{sectionName}</p>
                         <p class="text-4xl font-semibold">{@html project.title}</p>
                     </div>
     
