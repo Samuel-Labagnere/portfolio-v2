@@ -12,7 +12,7 @@
     }
 </script>
 
-<div class="flex flex-wrap gap-2.5">
+<div class="flex flex-wrap gap-2.5 items-center">
     {#each images as image}
         {#await loadImage(image[0]) then svg}
           <a href={image[1]} target="_blank">
