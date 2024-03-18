@@ -4,6 +4,7 @@
     import linkedin from '$lib/assets/linkedin.svg';
     import instagram from '$lib/assets/instagram.svg';
     import github from '$lib/assets/github.svg';
+    import opquast from '$lib/assets/opquast.svg';
     import Technologies from "$lib/components/Technologies.svelte";
     import global from "$lib/json/global.json";
     import about from "$lib/json/about.json";
@@ -19,9 +20,13 @@
         </div>
     
         <div class="grid md:grid-cols-2 md:absolute top-0 left-0 p-12 md:p-16 gap-y-10">
-            <div class="flex flex-col gap-5 w-full">
+            <div class="relative flex flex-col gap-5 w-full">
                 <div class="uppercase">
-                    <h1 class="text-3xl font-semibold">Samuel<br />Labagnere</h1>
+                    <div class="flex gap-5 md:justify-between ">
+                        <h1 class="text-3xl font-semibold">Samuel<br />Labagnere</h1>
+                        <img src={opquast} alt="Opquast niveau avancé" class="w-24" />
+                    </div>
+
                     <h2 class="text-xl italic">{global.title}</h2>
                 </div>
     
