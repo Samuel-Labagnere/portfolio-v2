@@ -24,7 +24,9 @@
                 <div class="uppercase">
                     <div class="flex gap-5 md:justify-between ">
                         <h1 class="text-3xl font-semibold">Samuel<br />Labagnere</h1>
-                        <img src={opquast} alt="Opquast niveau avancé" class="w-24" />
+                        <a href={about.opquast} target="_blank">
+                            <img src={opquast} alt="Opquast niveau avancé" class="w-24" />
+                        </a>
                     </div>
 
                     <h2 class="text-xl italic">{global.title}</h2>
