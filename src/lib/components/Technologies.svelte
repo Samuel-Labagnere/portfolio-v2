@@ -14,8 +14,10 @@
 
 <div class="flex flex-wrap gap-2.5">
     {#each images as image}
-        {#await loadImage(image) then svg}
+        {#await loadImage(image[0]) then svg}
+          <a href={image[1]} target="_blank">
             <img src={svg} alt="" class="w-12" />
+          </a>
         {:catch error}
             <p>Error loading image: {error.message}</p>
         {/await}
