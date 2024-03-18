@@ -47,3 +47,21 @@ body {
 .disabled-link {
     @apply !text-gray-400 !w-80 pointer-events-none;
 }
+
+.up {
+    @apply fixed top-0 left-0 w-screen h-screen pointer-events-none;
+}
+.up button::after {
+    content: '\2191';
+    @apply absolute bottom-0 right-0 bg-primary md:bg-transparent text-black md:text-primary border border-black md:border-primary 
+    rounded-full w-12 h-12 m-12 flex justify-center items-center pointer-events-auto;
+}
+
+.projects-title {
+    @apply hidden fixed top-5 -left-[94vw] w-screen h-screen md:flex flex-col gap-10 text-5xl uppercase italic pointer-events-none;
+}
+
+.projects-title * {
+    writing-mode: vertical-lr;
+    @apply rotate-180 text-nowrap;
+}

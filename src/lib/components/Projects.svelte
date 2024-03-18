@@ -31,16 +31,33 @@
         }
     }
 
-    console.log(active);
-
     const setActive = (src: string) => {
         active[src] = true;
         console.log(active);
     }
+
+    let scroll: number;
+    const goUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 </script>
 
-<section class="w-full h-full flex flex-col items-center gap-5 my-5">
+<section class="relative w-full h-full flex flex-col items-center gap-5 my-5">
     <Return deep={projectSection} />
+
+    {#if scroll > 50}
+        <div class="up">
+            <button on:click={goUp}></button>
+        </div>
+    {/if}
+
+    <div class="projects-title">
+        <h2>{projectSection}</h2>
+        <h1>{projectSectionName}</h1>
+    </div>
 
     {#if currentProjects && currentProjects?.length > 0}
         {#each currentProjects as project}
@@ -56,3 +73,5 @@
         <p>Aucun projet dans cette section.</p>
     {/if}
 </section>
+
+<svelte:window bind:scrollY={scroll} />
