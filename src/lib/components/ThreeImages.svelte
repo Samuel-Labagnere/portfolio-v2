@@ -26,13 +26,13 @@
 
     {#if images.length === 3}
         <div class="flex flex-col md:flex-row w-5/6 md:w-fit mx-5">
-            <div>
+            <div class="grid grid-rows-2">
                 <a href={`/${section}${images[0].link}`} class="relative group">
                     <div class="card">
                         <p>{images[0].title}</p>
                     </div>
                     {#await loadImage(images[0].src) then image}
-                        <img src={image} alt={images[1].alt} class="w-full md:w-fit object-cover h-44 md:h-fit border-2 border-white" />
+                        <img src={image} alt={images[1].alt} class="w-full md:w-fit object-cover h-44 md:h-full border-2 border-white" />
                     {:catch error}
                         <p>Error loading image: {error.message}</p>
                     {/await}
@@ -43,7 +43,7 @@
                         <p>{images[1].title}</p>
                     </div>
                     {#await loadImage(images[1].src) then image}
-                        <img src={image} alt={images[1].alt} class="w-full md:w-fit object-cover h-44 md:h-fit border-2 border-white" />
+                        <img src={image} alt={images[1].alt} class="w-full md:w-fit object-cover h-44 md:h-full border-2 border-white" />
                     {:catch error}
                         <p>Error loading image: {error.message}</p>
                     {/await}
@@ -55,7 +55,7 @@
                     <p>{images[2].title}</p>
                 </div>
                 {#await loadImage(images[2].src) then image}
-                    <img src={image} alt={images[2].alt} class="w-full md:w-fit object-cover h-44 md:h-fit border-2 border-white" />
+                    <img src={image} alt={images[2].alt} class="w-full md:w-fit object-cover h-44 md:h-full border-2 border-white" />
                 {:catch error}
                     <p>Error loading image: {error.message}</p>
                 {/await}

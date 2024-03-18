@@ -3,7 +3,7 @@
 
     let images = [
         { src: 'ProjetsUniversitaires', link: '/universitaires', alt: 'Test', title: 'Projets Universitaires' },
-        { src: 'ComingSoon', link: '/professionnels', alt: 'Test', title: 'Projets Professionnels' },
+        { src: 'ProjetsProfessionnels', link: '/professionnels', alt: 'Test', title: 'Projets Professionnels' },
         { src: 'ProjetsPersonnels', link: '/personnels', alt: 'Test', title: 'Projets Personnels' },
     ];
 </script>
