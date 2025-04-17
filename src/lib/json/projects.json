@@ -463,7 +463,7 @@
                         "ThreeJS, GSAP"
                     ]
                 ],
-                "link" : "https://toilet-chair.netlify.app//"
+                "link" : "https://toilet-chair.netlify.app/"
             }
         ],
         "projetsprofessionnels": [
@@ -555,6 +555,25 @@
                     "Scripts internes développés en Ruby."
                 ],
                 "link" : "https://esprit-tennis.com/"
+            },
+            {
+                "src" : "pollandroll",
+                "title" : "poll&roll",
+                "description" :  [
+                    "La plateforme d'études agiles et automatisées.",
+                    "Mon rôle: développement, conception, maintenance et évolution de la plateforme. Passage en modèle SaaS."
+                ],
+                "info" : [
+                    [
+                        "Frameworks",
+                        "Ruby On Rails, Stimulus, Turbo"
+                    ],
+                    [
+                        "Librairies",
+                        "Bootstrap"
+                    ]
+                ],
+                "link" : "https://www.discurv.com/poll-roll-by-discurv"
             }
         ],
         "projetspersonnels": [
