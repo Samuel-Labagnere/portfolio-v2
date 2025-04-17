@@ -6,7 +6,7 @@
     export let projectSectionName: string;
     export let projectSubSection: string;
 
-    let currentProjects = projects[projectSection][projectSubSection].reverse() as {
+    let currentProjects = projects[projectSection][projectSubSection].toReversed() as {
         src: string;
         title: string;
         description: string[];
