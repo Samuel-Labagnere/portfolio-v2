@@ -191,54 +191,6 @@
     "audiovisuel" : {
         "metrages" : [
             {
-                "src" : "unusual_work",
-                "title" : "Unusual work",
-                "description" : [
-                    "Court-Métrage réalisé/monté par Maxime LASSERRE, assisté par ma personne.",
-                    "Ce film nous aura servi d’entraînement pour manipuler le Panasonic Lumix DC-G9."
-                ],
-                "info" : [
-                    [
-                        "Réalisateur",
-                        "Maxime LASSERRE"
-                    ],
-                    [
-                        "Monteur",
-                        "Samuel LABAGNERE"
-                    ],
-                    [
-                        "Acteurs",
-                        "Samuel LABAGNERE & Maxime LASSERRE"
-                    ]
-                ],
-                "link" : ""
-            },{
-                "src" : "her_friends",
-                "title" : "HER FRIENDS",
-                "description" : [
-                    "Court-Métrage réalisé par moi-même, inspiré du réalisateur Coréen Park Chan Wook.",
-                    "Ce court-métrage a été produit durant le projet HORS CHAMPS du cursus MMI à l’IUT Bordeaux Montaigne."
-                ],
-                "info" : [
-                    [
-                        "Réalisateur",
-                        "Samuel LABAGNERE"
-                    ],
-                    [
-                        "Monteur",
-                        "Samuel LABAGNERE"
-                    ],
-                    [
-                        "Acteurs",
-                        "Samuel LABAGNERE & Yani MADEBOS"
-                    ],
-                    [
-                        "Equipe tournage",
-                        "Laurent MALUCELLI, Maxime LASSERRE, Gabriel PAGLIA"
-                    ]
-                ],
-                "link" : ""
-            },{
                 "src" : "unesco",
                 "title" : "Voyage dans les langues",
                 "description" : [
@@ -253,21 +205,6 @@
                     ]
                 ],
                 "link" : "https://www.youtube.com/watch?v=bEtPPWjTBk4"
-            },{
-                "src" : "irresponsabilite",
-                "title" : "Irresponsabilité",
-                "description" : [
-                    "Court-Métrage de sensibilisation à l'importance de la responsabilité dans notre société et tentant d'en établir une définition qui nous est propre.",
-                    "Produit pour la journée d'intégration des premières et deuxièmes années du DUT MMI à l'IUT Bordeaux Montaigne, nous avions 16h en groupe de 5 pour réaliser une vidéo sur le thème de la responsabilité."
-                ],
-                "info" : [
-                    "Production d'un groupe de 3 premières années et deux deuxièmes années moi inclus.",
-                    [
-                        "Mes rôles",
-                        "Co-Réalisateur, chef rédacteur, assistant cadreur, monteur, acteur"
-                    ]
-                ],
-                "link" : "https://drive.google.com/file/d/1xLgHtjSvH6IK9ds_Dxp-w3951rCtTioL/view"
             }
         ],
         "autres": [
