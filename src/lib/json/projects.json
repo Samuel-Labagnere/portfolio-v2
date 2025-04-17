@@ -445,6 +445,25 @@
                     ]
                 ],
                 "link" : "https://citoyennete-economique.scop.coop/"
+            },
+            {
+                "src" : "toilet_chair",
+                "title" : "Pose",
+                "description" : [
+                    "Création d'un site « design » en groupe, autour d'un objet chimère amusant de notre choix. Ici : La fusion d'une chaise et de toilettes.",
+                    "Conceptualisé et développé par mon groupe et moi-même, dans le cadre d'un Hackaton en M1 Développement Web à l'ECV."
+                ],
+                "info" : [
+                    [
+                        "Framework",
+                        "Svelte Kit"
+                    ],
+                    [
+                        "Librairies",
+                        "ThreeJS, GSAP"
+                    ]
+                ],
+                "link" : "https://toilet-chair.netlify.app//"
             }
         ],
         "projetsprofessionnels": [
