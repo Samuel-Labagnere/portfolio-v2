@@ -6,7 +6,7 @@
     export let projectSectionName: string;
     export let projectSubSection: string;
 
-    let currentProjects = projects[projectSection][projectSubSection] as {
+    let currentProjects = projects[projectSection][projectSubSection].reverse() as {
         src: string;
         title: string;
         description: string[];
@@ -60,7 +60,7 @@
     </div>
 
     {#if currentProjects && currentProjects?.length > 0}
-        {#each currentProjects.reverse() as project}
+        {#each currentProjects as project}
             {#await loadImage(project.src) then src}
                 <img src={src} alt={project.title} class="min-w-96 w-2/3 border-4 border-primary cursor-pointer"
                 on:click={() => setActive(project.src)}  />
