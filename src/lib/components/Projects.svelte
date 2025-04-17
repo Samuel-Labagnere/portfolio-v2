@@ -60,7 +60,7 @@
     </div>
 
     {#if currentProjects && currentProjects?.length > 0}
-        {#each currentProjects as project}
+        {#each currentProjects.reverse() as project}
             {#await loadImage(project.src) then src}
                 <img src={src} alt={project.title} class="min-w-96 w-2/3 border-4 border-primary cursor-pointer"
                 on:click={() => setActive(project.src)}  />
