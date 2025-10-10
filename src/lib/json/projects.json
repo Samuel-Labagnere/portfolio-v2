@@ -401,22 +401,7 @@
                     ]
                 ],
                 "link" : "https://toilet-chair.netlify.app/"
-            }, 
-            {
-                "src" : "mordor",
-                "title" : "Mordor",
-                "description" : [
-                    "Création d'un site articulé autour de l'exercice de l'intégration 3D. Fut pris ici pour inspiration l'univers de Tolkien et de la tour Barad-Dûr.",
-                    "Conceptualisé et développé par moi-même, dans le cadre d'un cours sur ThreeJS en M2 Développement Web à l'ECV."
-                ],
-                "info" : [
-                    [
-                        "Technologies",
-                        "HTML, CSS, ThreeJS, Vite"
-                    ]
-                ],
-                "link" : "https://samuel-labagnere.github.io/mordor/"
-            },
+            }
         ],
         "projetsprofessionnels": [
             {
