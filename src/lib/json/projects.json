@@ -1,7 +1,7 @@
 {
     "photo" : {
         "voyage" : [],
-        "mode": [
+        "extérieur": [
             {
                 "src" : "yaniXmax",
                 "title" : "Bordeaux, Jardin Public",
@@ -124,7 +124,7 @@
                 "link" : ""
             }
         ],
-        "portrait": [
+        "studio": [
             {
                 "src" : "julian",
                 "title" : "Bordeaux, IUT Bordeaux Montaigne, Studio",
